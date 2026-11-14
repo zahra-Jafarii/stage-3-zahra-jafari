@@ -1,0 +1,9 @@
+{
+  "quarantine_threshold": 0.05,
+  "curated_dir": "data/curated",
+  "source_type": "csv",
+  "input_path": "data/raw/credit_training.csv",
+  "destinations": ["database"],
+  "database_schema": "stage3",
+  "database_load_mode": "replace"
+}
